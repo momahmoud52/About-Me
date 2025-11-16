@@ -67,7 +67,7 @@
 
   // Contact: open Gmail compose (mailto to Gmail address).
   // NOTE: replace 'yourname@gmail.com' with your Gmail.
-  const gmail = 'yourname@gmail.com';
+  const gmail = 'mohamed.m.shahat@gmail.com';
   function openGmailCompose(){
     const subject = encodeURIComponent(lang === 'ar' ? 'رسالة من صفحتي' : 'Message from my page');
     const body = encodeURIComponent(lang === 'ar' ? 'مرحباً، أريد التواصل معك...' : 'Hi, I would like to contact you...');
