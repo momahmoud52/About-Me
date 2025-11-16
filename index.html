@@ -1,0 +1,78 @@
+<!-- path: project/index.html -->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title data-i18n="title">مرحباً بكم في المستقبل</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- OpenGraph minimal -->
+  <meta property="og:title" content="Welcme To The Future">
+  <meta property="og:description" content="ملف روابط احترافي ثنائي اللغة + غلاف 3D">
+</head>
+<body>
+<main class="page">
+  <header class="cover">
+    <video class="cover-video" src="11.mp4" autoplay loop controls></video>
+
+    <div class="cover-layer layer-back"></div>
+    <div class="cover-layer layer-mid"></div>
+    <div class="cover-layer layer-front"></div>
+
+
+      <div class="top-controls">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="ar">ع</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+
+      <!-- Profile Card (3D tilt target) -->
+      <section class="profile-card" id="profileCard" role="region" aria-label="profile card">
+  <div class="avatar">
+  <img src="555531451_680609355058686_5822467063376065110_n.jpg" class="avatar-img" alt="profile">
+</div>
+        <div class="profile-info">
+          <h1 class="name" data-i18n="name">Mohamed Mahmoud</h1>
+          <p class="bio" data-i18n="bio">Admin Assist - Graphic Designer - Icdl Trainer </p>
+          <div class="action-row">
+            <a id="contactBtn" class="btn primary" href="#" role="button" aria-label="Contact">تواصل</a>
+            <a class="btn ghost" href="#" id="shareBtn" aria-label="Share">مشاركة</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- LINKS / SOCIAL -->
+<section class="links-section">
+  <div class="links-grid">
+    <a class="link-item" href="https://www.facebook.com/yourusername" target="_blank">
+      <span>Facebook</span>
+    </a>
+
+    <a class="link-item" href="https://www.instagram.com/its_meemooo?igsh=MW1uajluZTJuaXU4bg==" target="_blank">
+      <span>Instagram</span>
+    </a>
+
+    <a class="link-item" href="https://www.linkedin.com/in/yourusername" target="_blank">
+      <span>LinkedIn</span>
+    </a>
+
+    <a class="link-item" href="https://www.yourwebsite.com" target="_blank">
+      <span>Website</span>
+    </a>
+  </div>
+</section>
+
+      </div>
+    </section>
+
+    <!-- FOOTER / EXTRA MESSAGE -->
+    <footer class="footer">
+      <p data-i18n="foot">Thanks for visiting</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
